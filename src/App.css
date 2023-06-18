@@ -339,7 +339,7 @@
 }
 
 
-@media (min-width:850px) {
+@media (max-width:850px) {
     .homepage{
         margin: 2vh 4vw;
     }
