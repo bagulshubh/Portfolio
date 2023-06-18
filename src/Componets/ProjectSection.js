@@ -27,7 +27,7 @@ function ProjectSection(props) {
 
     let imgarr = [img,img1,img2,img3,img4,img5];
 
-    let link = ["https://github.com/bagulshubh/Movie_Database","https://github.com/bagulshubh/2048_Game","https://github.com/bagulshubh/Dev-Detective","https://github.com/bagulshubh/Quiz-WebPage","https://github.com/bagulshubh/TO-DO-List","https://github.com/bagulshubh/Cryptocurrency-Application"]
+    let link = ["https://moviedatabaseshubh.netlify.app/","https://github.com/bagulshubh/2048_Game","https://github.com/bagulshubh/Dev-Detective","https://github.com/bagulshubh/Quiz-WebPage","https://github.com/bagulshubh/TO-DO-List","https://github.com/bagulshubh/Cryptocurrency-Application"]
 
     let techstack = [ ["react","css","html","js","tw"], ["react","css","html","js"] ,["css","html","js","tw"],["css","html","js","tw"],["css","html","js","tw"],["react","css","html","js"]]
 

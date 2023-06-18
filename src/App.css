@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 .App{
     width: 100%;
@@ -337,6 +338,113 @@
     font-size: 2rem;
 }
 
+
+@media (min-width:850px) {
+    .homepage{
+        margin: 2vh 4vw;
+    }
+    .navbar{
+        font-size: 4.5vw;
+    }
+    .side-con{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .leftside{
+        width: 100%;
+        gap: 2.5rem;
+    }
+    .heading{
+        font-size: 7rem;
+    }
+    .left-para{
+        font-size: 3rem;
+    }
+    .socials{
+        gap: 4rem;
+    }
+    .icon1{
+        font-size: 5rem;
+    }
+    .chat{
+        padding: 1.4rem 5rem;
+        font-size: 4rem;
+    }
+    .rightside{
+        width: 100%;
+    }
+    .rightside img{
+        width: 100%;
+    }
+    .about-con{
+        flex-direction: column;
+        gap: 3rem;
+        width: 100%;
+        padding: 0;
+        align-items: flex-start;
+        padding: 2rem;
+    }
+    .left-side-about{
+        max-width: 100%;
+    }
+    .about-heading{
+        font-size: 5rem;
+    }
+    .about-para{
+        font-size: 3rem;
+    }
+    .right-side-about{
+        width: 100%;
+    }
+    .right-heading{
+        font-size: 4rem;
+    }
+    .email{
+        font-size: 3rem;
+    }
+    .email-icon{
+        font-size: 3rem;
+    }
+    .res{
+        font-size: 3rem;
+    }
+    .project-con{
+        gap: 2rem;
+    }
+    .project-heading{
+        font-size: 5rem;
+    }
+    .project-card{
+        display: flex;
+        flex-direction: column;
+    }
+    .project-info{
+        font-size: 3rem;
+    }
+    .project-con{
+        margin: 1rem;
+    }
+    .otherproject-con{
+        display: flex;
+        flex-direction: column;
+    }
+    .clone-con{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .skill-con{
+        margin: 1rem;
+    }
+    .skill-card{
+        padding: 6rem;
+        width: 15rem;
+        font-size: 2rem;
+    }
+
+
+
+}
 
 
 

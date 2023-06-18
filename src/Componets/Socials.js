@@ -7,11 +7,11 @@ function Socials() {
   return (
     <div className='socials'>
       
-      <a href='https://www.linkedin.com/in/shubham-bagul-831533253/'><BsLinkedin className='icon1'></BsLinkedin></a>
+      <a href='https://www.linkedin.com/in/shubham-bagul-831533253/' target='blank'><BsLinkedin className='icon1'></BsLinkedin></a>
 
-      <a href='https://github.com/bagulshubh'><AiOutlineGithub className='icon1'></AiOutlineGithub></a>
+      <a href='https://github.com/bagulshubh' target='blank'><AiOutlineGithub className='icon1'></AiOutlineGithub></a>
 
-      <a href='https://www.instagram.com/shubham_bagul_7219/'><AiFillInstagram className='icon1'></AiFillInstagram></a>
+      <a href='https://www.instagram.com/shubham_bagul_7219/' target='blank'><AiFillInstagram className='icon1'></AiFillInstagram></a>
 
       <a><BsFacebook className='icon1'></BsFacebook></a>
 
