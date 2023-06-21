@@ -438,8 +438,9 @@
         margin: 2vw;
     }
     .skill-card{
-        width: 15vw;
-        height: 15vw;
+        padding: 0;
+        width: 30vw;
+        height: 30vw;
         font-size: 4vw;
     }
 
