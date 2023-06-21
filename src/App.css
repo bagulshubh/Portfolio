@@ -356,20 +356,20 @@
         gap: 2.5rem;
     }
     .heading{
-        font-size: 7rem;
-    }
-    .left-para{
         font-size: 3rem;
     }
+    .left-para{
+        font-size: 1.4rem;
+    }
     .socials{
-        gap: 4rem;
+        gap: 2rem;
     }
     .icon1{
-        font-size: 5rem;
+        font-size: 2rem;
     }
     .chat{
-        padding: 1.4rem 5rem;
-        font-size: 4rem;
+        padding: 0.5rem 0.5rem;
+        font-size: 1.5rem;
     }
     .rightside{
         width: 100%;
@@ -379,51 +379,52 @@
     }
     .about-con{
         flex-direction: column;
-        gap: 3rem;
+        gap: 2rem;
         width: 100%;
         padding: 0;
         align-items: flex-start;
-        padding: 2rem;
+        padding: 3vw;
     }
     .left-side-about{
         max-width: 100%;
     }
     .about-heading{
-        font-size: 5rem;
+        font-size: 3rem;
     }
     .about-para{
-        font-size: 3rem;
+        font-size: 1.2em;
     }
     .right-side-about{
         width: 100%;
     }
     .right-heading{
-        font-size: 4rem;
+        font-size: 2rem;
     }
     .email{
-        font-size: 3rem;
+        font-size: 1.5rem;
     }
     .email-icon{
-        font-size: 3rem;
+        font-size: 1.5rem;
     }
     .res{
-        font-size: 3rem;
+        font-size: 1.2rem;
+        padding: 1vh 1vw;
     }
     .project-con{
-        gap: 2rem;
+        gap: 1.5rem;
     }
     .project-heading{
-        font-size: 5rem;
+        font-size: 3rem;
     }
     .project-card{
         display: flex;
         flex-direction: column;
     }
     .project-info{
-        font-size: 3rem;
+        font-size: 1.2rem;
     }
     .project-con{
-        margin: 1rem;
+        margin: 2vw;
     }
     .otherproject-con{
         display: flex;
@@ -431,15 +432,15 @@
     }
     .clone-con{
         flex-direction: column;
-        gap: 2rem;
+        gap: 1rem;
     }
     .skill-con{
-        margin: 1rem;
+        margin: 2vw;
     }
     .skill-card{
-        padding: 6rem;
-        width: 15rem;
-        font-size: 2rem;
+        width: 15vw;
+        height: 15vw;
+        font-size: 4vw;
     }
 
 
