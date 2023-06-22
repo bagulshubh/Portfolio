@@ -5,6 +5,7 @@ import About from './Componets/About';
 import ProjectSection from './Componets/ProjectSection';
 import OtherProject from './Componets/OtherProject';
 import { useEffect, useState } from 'react';
+import Leetcode from './Componets/Leetcode';
 
 function App() {
 
@@ -50,6 +51,8 @@ function App() {
       <OtherProject></OtherProject>
 
       <SkillSection skillClicked = {skillClicked} setskilledClicked={setskilledClicked} ></SkillSection>
+
+      <Leetcode></Leetcode>
 
     </div>
   );

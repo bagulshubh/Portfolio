@@ -43,7 +43,7 @@ const NavBar = (props) => {
           <div className='blue-line'></div>
       </div>
       <div className='navitem'>
-          Contact
+          Leetcode
           <div className='blue-line'></div>
       </div>
 
