@@ -210,7 +210,6 @@
 .project-info h2{
     color: #007fff;
     cursor: pointer;
-    
 }
 .techstack-con{
     all: unset;
@@ -337,6 +336,56 @@
 .skill-icon{
     font-size: 2rem;
 }
+.leetcode-con{
+    max-width: 1300px;
+    margin: 4vh auto;
+    margin-top: 1rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.leetcode-con h1{
+    font-family: 'Noto Sans Nag Mundari', sans-serif;
+    font-size: 2.7rem;
+    margin-bottom: 2rem;
+}
+.dsa-first{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-family: 'Noto Sans Nag Mundari', sans-serif;
+    gap: 2vh;
+}
+.dsa-left{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+.dsa-right{
+    display: flex;
+    gap: 2vw;
+    justify-content:space-between;
+}
+.dsa-right div a{
+    all: unset;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.leet{
+    background-color: orange;
+    padding: 1vh 1vw;
+    border-radius: 5px;
+    color: black;
+}
+.gfg{
+    background-color: greenyellow;
+    padding: 1vh 1vw;
+    border-radius: 5px;
+    color: black;
+}
 
 
 @media (max-width:850px) {
@@ -446,8 +495,19 @@
         height: 30vw;
         font-size: 4vw;
     }
-
-
+    .leetcode-con{
+        margin: 2vw;
+        margin-bottom: 5vh;
+    }
+    .leetcode-con h1{
+        font-size: 8vw;
+    }
+    .dsa-left{
+        font-size: 4vw;
+    }
+    .leet{
+        font-size: 2vw;
+    }
 
 }
 
