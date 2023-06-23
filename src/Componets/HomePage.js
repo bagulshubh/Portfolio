@@ -8,13 +8,14 @@ function HomePage(props) {
   let skillClicked = props.skillClicked
   let setskilledClicked = props.setskilledClicked
   let setprojectClicked = props.setprojectClicked
+  let setdsaClicked = props.setdsaClicked;
 
   return (
     <div className='homepage'>
       
       
         <NavBar skillClicked = {skillClicked} setskilledClicked={setskilledClicked}
-         setprojectClicked={setprojectClicked} ></NavBar>
+         setprojectClicked={setprojectClicked} setdsaClicked={setdsaClicked}></NavBar>
 
         <div className='side-con' >
             <LeftSide></LeftSide>

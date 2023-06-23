@@ -7,6 +7,7 @@ const NavBar = (props) => {
   let skillClicked = props.skillClicked
   let setskilledClicked = props.setskilledClicked
   let setprojectClicked = props.setprojectClicked
+  let setdsaClicked = props.setdsaClicked;
 
   const skillsRef = useRef(null);
 
@@ -18,11 +19,19 @@ const NavBar = (props) => {
     // skillsRef.current.scrollIntoView({ behavior: 'smooth' });
     setskilledClicked(true);
     setprojectClicked(false);
+    setdsaClicked(false);
   };
 
   const clickHandler = () =>{
     setskilledClicked(false);
     setprojectClicked(true);
+    setdsaClicked(false);
+  }
+
+  const dsa=()=>{
+    setdsaClicked(true);
+    setskilledClicked(false);
+    setprojectClicked(false);
   }
 
 
@@ -42,7 +51,7 @@ const NavBar = (props) => {
           Projects
           <div className='blue-line'></div>
       </div>
-      <div className='navitem'>
+      <div className='navitem' onClick={dsa}>
           Leetcode
           <div className='blue-line'></div>
       </div>
