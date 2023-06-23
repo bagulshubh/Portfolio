@@ -11,21 +11,22 @@ function App() {
 
   let [skillClicked,setskilledClicked] = useState(false);
   let [projectClicked,setprojectClicked] = useState(false);
+  let[dsaClicked,setdsaClicked] = useState(false);
   /*to know when user is at top of the web application*/
   const [isAtTop, setIsAtTop] = useState(true);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsAtTop(window.pageYOffset === 0);
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     setIsAtTop(window.pageYOffset === 0);
+  //   };
 
-    window.addEventListener('scroll', handleScroll);
+  //   window.addEventListener('scroll', handleScroll);
 
-    // Cleanup the event listener on component unmount
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-    }, []);
+  //   // Cleanup the event listener on component unmount
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  //   }, []);
 
   if(isAtTop){
     setprojectClicked(false);
@@ -42,7 +43,7 @@ function App() {
       
       <HomePage skillClicked = {skillClicked} setskilledClicked={setskilledClicked}setprojectClicked={
         setprojectClicked
-      }></HomePage>
+      } setdsaClicked={setdsaClicked}></HomePage>
 
       <About></About>
 
@@ -52,7 +53,7 @@ function App() {
 
       <SkillSection skillClicked = {skillClicked} setskilledClicked={setskilledClicked} ></SkillSection>
 
-      <Leetcode></Leetcode>
+      <Leetcode dsaClicked={dsaClicked} setdsaClicked={setdsaClicked}></Leetcode>
 
     </div>
   );

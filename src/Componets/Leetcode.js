@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { useRef } from 'react'
 
-const Leetcode = () => {
+const Leetcode = (props) => {
+    
+    let dsaClicked = props.dsaClicked;
+
+    const dsaRef = useRef(null);
+
+
+    if(dsaClicked===true){
+        dsaRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+
     return (
-        <div className='leetcode-con'>
+        <div className='leetcode-con' ref={dsaRef}>
 
             <h1>DSA & Problem Solving</h1>
 
