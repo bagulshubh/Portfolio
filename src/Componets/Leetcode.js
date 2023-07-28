@@ -19,7 +19,7 @@ const Leetcode = (props) => {
             <div className='dsa-first'>
 
                 <div className='dsa-left'>
-                    <div>1. Solved 400+ DSA problems on LeetCode and GeeksforGeeks.
+                    <div>1. Solved 700+ DSA problems on LeetCode and GeeksforGeeks.
                     </div>
                     <div>
                     2. Emphasized efficiency and optimized code.

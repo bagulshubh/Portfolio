@@ -40,7 +40,7 @@ function ProjectCard(props) {
                 
                 <div className='project-info'>
                     <a href={link} target='blank'><h2>{heading}</h2></a>
-                    <a href='#' target='blank' className='source'>Source Code</a>
+                    <a href={link} target='blank' className='source'>Source Code</a>
                     {para}
                 </div>
         </div>
