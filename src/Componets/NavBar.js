@@ -52,7 +52,7 @@ const NavBar = (props) => {
           <div className='blue-line'></div>
       </div>
       <div className='navitem' onClick={dsa}>
-          Leetcode
+          DSA
           <div className='blue-line'></div>
       </div>
 
