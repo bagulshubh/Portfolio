@@ -29,10 +29,9 @@ function About() {
                 <div className='email' onClick={ChatHandler}> <AiOutlineMail className='email-icon'></AiOutlineMail> bagulshubham72@gmailcom</div>
 
                 <div className='button-con-about'>
-                    <a href='https://drive.google.com/drive/folders/1h4MreIUfa-bu8-QePmxwui7_Jl9f0Yay?usp=sharing' target='blank'> <button className='res'><AiFillEye></AiFillEye> View Resume</button> </a>
+                    <a href='https://drive.google.com/file/d/1xW_pDMOh_mzR4D4hXVr4O_VCWZdpOw_5/view?pli=1' target='blank'> <button className='res'><AiFillEye></AiFillEye> View Resume</button> </a>
 
-                    <a href='../Assets/Resume_Copy_.pdf' download> <button className='res'><AiOutlineDownload></AiOutlineDownload>  Download Resume</button>  </a>
-                    
+                    <a href='https://drive.google.com/file/d/1xW_pDMOh_mzR4D4hXVr4O_VCWZdpOw_5/view?pli=1' download> <button className='res'><AiOutlineDownload></AiOutlineDownload>  Download Resume</button>  </a>
                                
                 </div>
 
